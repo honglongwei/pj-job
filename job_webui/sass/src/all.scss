@@ -1,0 +1,68 @@
+.font-fail {
+    background-color: #d9534f;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.font-warning {
+    background-color: #f9cc9d;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.font-runing {
+    background-color: #337ab7;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.font-success {
+    background-color: #5cb85c;
+    display: inline;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.x-form-copy-trigger .x-form-paste-trigger{
+    font-size: 16px;
+    font-family: FontAwesome;
+}
+
+.x-form-copy-trigger:before {
+    content: "\f0c5";
+}
+
+.x-form-paste-trigger:before {
+	content: "\f0ea";
+}

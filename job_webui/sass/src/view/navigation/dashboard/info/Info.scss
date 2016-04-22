@@ -1,0 +1,42 @@
+.info-card-item {
+    background: $lightest-color ;
+    padding:10px 10px !important;
+
+    span {
+        font-size: 30px;
+    }
+
+    &.cornflower-blue:before {
+        background: $sale-container-color;
+    }
+    &.green:before {
+        background: $message-container-color;
+    }
+    &.magenta:before {
+        background: $code-container-color;
+    }
+    &.pink:before {
+        background: $user-container-color;
+    }
+    &.orange:before {
+        background: $server-container-color;
+    }
+    &.blue:before {
+        background: $file-container-color;
+    }
+    h2{
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0;
+        margin: 0;
+        line-height: 32px;
+    }
+}
+.info-card-item:before {
+    width:100%;
+    position:absolute;
+    height:3px;
+    content:"";
+    top:0;
+    left:0
+}
