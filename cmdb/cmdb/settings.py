@@ -21,9 +21,9 @@ MIDDLEWARE_CLASSES = [
     "django.middleware.common.CommonMiddleware"
 ]
 
-# 海豹接口
-SEAL = "http://seal.cyou-inc.com/a/application/deviceInterface/getDeviceInfo/assetInfo"
-SEAL_YUN = "http://seal.cyou-inc.com/a/application/deviceInterface/getDeviceInfo/cloudAsset"
+# 资产接口
+SEAL = "http://www.baidu.com/assetInfo"
+SEAL_YUN = "http://www.baidu.com/cloudAsset"
 
 # Database
 DATABASES = {
